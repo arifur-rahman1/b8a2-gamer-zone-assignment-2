@@ -1,4 +1,46 @@
-body{
-font-family: 'Work Sans', sans-serif;
-margin: 0;
+body {
+  font-family: "Work Sans", sans-serif;
+  margin: 0;
 }
+.primary-color {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+/******************* nav styling start ********************************/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gamer {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.gamer h3 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.nav-items p {
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-items button{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 8px 24px;
+    border: 0;
+    border-radius: 8px;
+}
+
+/******************* nav styling end ********************************/
