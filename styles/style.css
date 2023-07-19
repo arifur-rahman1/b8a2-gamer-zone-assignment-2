@@ -68,7 +68,7 @@ nav {
 /******************* header styling start ********************************/
 .header-container {
   display: flex;
-  gap: 20%;
+  gap: 10%;
   align-items: center;
   justify-content: center;
   background-image: url("../images/Group\ 14.png");
@@ -105,8 +105,8 @@ nav {
     flex-direction: row-reverse;
     align-items: center;
     justify-content: center;
-    gap: 10%;
-    padding: 95px 240px;
+    gap: 5%;
+    padding: 5% 10%;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     text-align: right;
 }
@@ -124,6 +124,19 @@ font-weight: 400;
     font-size: 2rem;
     font-weight: 700;
     margin: 0;
+}
+.gamer-img img{
+    width: 100%;
+}
+.btn-primary1{
+   
+        border-radius: 48px;
+    background:  linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    padding:15px 20px;
+    border: 0;
+    color: #fff;
+    font-size: 1.2rem;
+  
 }
 
 /******************* gamer styling end ********************************/
